@@ -59,6 +59,17 @@ p {
     color: #555;
 }
 
+/* Boxed paragraph styling */
+p.boxed {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
 /* Image styling */
 img {
     display: block;
