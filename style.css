@@ -91,6 +91,44 @@ footer {
     bottom: 0;
 }
 
+/* Center the 'Interesting Facts About Earth' section */
+.interesting-facts {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 600px; /* Adjust the width as needed */
+}
+
+/* Adjust the heading and list */
+.interesting-facts h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.interesting-facts ul {
+    list-style-position: inside;
+    text-align: left; /* Align list items to the left */
+    padding-left: 20px;
+}
+
+/* Center the 'Interesting Facts About the Moon' section */
+.moon-facts {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 600px; /* Adjust the width as needed */
+}
+
+/* Adjust the heading and list for the Moon */
+.moon-facts h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.moon-facts ul {
+    list-style-position: inside;
+    text-align: left; /* Align list items to the left */
+    padding-left: 20px;
+}
+
 /* Responsive design for smaller screens */
 @media (max-width: 600px) {
     nav a {
