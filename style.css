@@ -74,7 +74,7 @@ p.boxed {
 img {
     display: block;
     margin: 20px auto;
-    max-width: 80%;
+    max-width: 60%; /* Adjusted to make the image smaller */
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -99,7 +99,7 @@ footer {
     }
 
     img {
-        max-width: 100%;
+        max-width: 80%; /* Smaller adjustment for smaller screens */
     }
 
     p {
