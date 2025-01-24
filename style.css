@@ -129,6 +129,28 @@ footer {
     padding-left: 20px;
 }
 
+/* Flexbox container for the images */
+.image-container {
+    display: flex;
+    justify-content: center; /* Centers the images horizontally */
+    gap: 20px; /* Adds spacing between the images */
+    margin: 20px 0;
+}
+
+/* Styling for the planet images */
+.planet-image {
+    max-width: 200px; /* Adjust the size as needed */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.planet-image:hover {
+    transform: scale(1.1); /* Adds a hover zoom effect */
+    cursor: pointer;
+}
+
 /* Responsive design for smaller screens */
 @media (max-width: 600px) {
     nav a {
